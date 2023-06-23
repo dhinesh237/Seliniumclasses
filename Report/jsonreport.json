@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To create new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-fb-application;to-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3891154100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximise window",
+            "match": {
+              "location": "FbLoginPage.to_launch_the_chrome_browser_and_maximise_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1901247500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of fb app",
+            "match": {
+              "location": "FbLoginPage.to_launch_the_url_of_fb_app()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3185258400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "FbLoginPage.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3257942700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass firstname in firstname text box",
+            "match": {
+              "location": "FbLoginPage.to_pass_firstname_in_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "selein",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162740100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass secondname in secondname text box",
+            "match": {
+              "location": "FbLoginPage.to_pass_secondname_in_secondname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141696900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass phno or email in email text box",
+            "match": {
+              "location": "FbLoginPage.to_pass_phno_or_email_in_email_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abcdef@gmail.com",
+                  "123456789",
+                  "sdfghjkj@gmail.com",
+                  "12345678909"
+                ]
+              },
+              {
+                "cells": [
+                  "automation@",
+                  "1234566",
+                  "iphones@gmail.com",
+                  "23456788765"
+                ]
+              },
+              {
+                "cells": [
+                  "always@gmail.com",
+                  "123433556",
+                  "zxcgf@gmail.com",
+                  "2345 678765"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129896400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To create new password using new password text box",
+            "match": {
+              "location": "FbLoginPage.to_create_new_password_using_new_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595968500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbLoginPage.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the account creation of fb application",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.Feature",
+    "tags": []
+  }
+]
